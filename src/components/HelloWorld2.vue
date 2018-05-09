@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img src="@/assets/logo.png">
+    <img src="@/assets/logo2.png">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -10,7 +10,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'This is Page 2'
     }
   }
 }
