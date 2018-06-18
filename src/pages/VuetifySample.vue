@@ -51,7 +51,7 @@
       <v-btn icon>
         <v-icon>more_vert</v-icon>
       </v-btn>
- 
+
     </v-toolbar>
     <v-content>
       <v-container fluid fill-height>
@@ -75,4 +75,4 @@ export default({
 </script>
 
 <style>
-</style> 
+</style>
