@@ -1,6 +1,7 @@
 <template>
   <div>
-    <HelloWorld></HelloWorld>
+    <!-- <HelloWorld></HelloWorld> -->
+    <barchart :options="{title: { display: true, text: 'サンプルのグラフです！' }}"></barchart>
     <p style="background-color: red">
       ここはページ１です。
     </p>
@@ -14,11 +15,13 @@
 
 <script>
 import HelloWorld from '@/components/HelloWorld'
+import Barchart from '@/components/Barchart'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Barchart
   },
   data () {
     return {
